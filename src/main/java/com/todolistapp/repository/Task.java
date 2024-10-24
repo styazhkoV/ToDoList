@@ -1,4 +1,4 @@
-package com.todolistapp.domain.task;
+package com.todolistapp.repository;
 
 import jdk.jshell.Snippet;
 import lombok.Data;

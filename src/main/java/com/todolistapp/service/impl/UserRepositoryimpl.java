@@ -1,15 +1,12 @@
-package com.todolistapp.repository.impl;
+package com.todolistapp.service.impl;
 
 import com.todolistapp.domain.user.Role;
 import com.todolistapp.domain.user.User;
 import com.todolistapp.repository.UserRepository;
-import org.springframework.stereotype.Repository;
-
 
 import java.util.Optional;
-@Repository
 
-public class UserRepositoryImpl implements UserRepository {
+public class UserRepositoryimpl implements UserRepository {
     @Override
     public Optional<User> findById(Long id) {
         return Optional.empty();

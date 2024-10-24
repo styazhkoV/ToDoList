@@ -1,13 +1,15 @@
-package com.todolistapp.repository.impl;
+package com.todolistapp.service.impl;
 
 import com.todolistapp.repository.Task;
+import com.todolistapp.repository.TaskRepository;
 import com.todolistapp.service.TaskService;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
-@Service
-public class TaskRepositoryImpl implements TaskService {
+import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
+
+public class TaskServiceimpl implements TaskService {
 
 
     @Override
@@ -29,6 +31,7 @@ public class TaskRepositoryImpl implements TaskService {
     public Task create(Task task) {
         return null;
     }
+
 
     @Override
     public void delete(Long id) {
