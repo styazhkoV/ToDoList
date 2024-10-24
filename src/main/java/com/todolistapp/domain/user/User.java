@@ -1,6 +1,6 @@
 package com.todolistapp.domain.user;
 
-import com.todolistapp.domain.task.Task;
+import com.todolistapp.repository.Task;
 import lombok.Data;
 
 import java.util.List;
@@ -12,7 +12,7 @@ public class User {
     private Long id;
     private String name;
     private String password;
-    private String passwordConfirmition;
-    private Set<Role> rolles;
+    private String passwordConfirmation;
+    private Set<Role> roles;
     private List<Task> tasks;
 }

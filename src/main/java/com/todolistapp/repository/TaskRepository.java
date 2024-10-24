@@ -1,8 +1,5 @@
 package com.todolistapp.repository;
 
-import com.todolistapp.domain.task.Task;
-import org.springframework.stereotype.Repository;
-
 import java.util.List;
 import java.util.Optional;
 
